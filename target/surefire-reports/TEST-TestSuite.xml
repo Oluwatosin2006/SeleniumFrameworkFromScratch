@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="TestSuite" time="73.841" tests="9" errors="0" skipped="0" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="TestSuite" time="141.438" tests="12" errors="0" skipped="0" failures="2">
   <properties>
     <property name="java.specification.version" value="22"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="GB"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-22\bin"/>
-    <property name="sun.java.command" value="C:\Users\bukad\AppData\Local\Temp\surefire4758825311181441759\surefirebooter-20240905172356813_3.jar C:\Users\bukad\AppData\Local\Temp\surefire4758825311181441759 2024-09-05T17-23-56_619-jvmRun1 surefire-20240905172356813_1tmp surefire_0-20240905172356813_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\bukad\AppData\Local\Temp\surefire950188464669632562\surefirebooter-20240905183641169_3.jar C:\Users\bukad\AppData\Local\Temp\surefire950188464669632562 2024-09-05T18-36-40_726-jvmRun1 surefire-20240905183641169_1tmp surefire_0-20240905183641169_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\bukad\OneDrive\Desktop\Projects\OpencartV1\target\test-classes;C:\Users\bukad\OneDrive\Desktop\Projects\OpencartV1\target\classes;C:\Users\bukad\.m2\repository\org\seleniumhq\selenium\selenium-java\4.21.0\selenium-java-4.21.0.jar;C:\Users\bukad\.m2\repository\org\seleniumhq\selenium\selenium-api\4.21.0\selenium-api-4.21.0.jar;C:\Users\bukad\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.21.0\selenium-chrome-driver-4.21.0.jar;C:\Users\bukad\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\bukad\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.21.0\selenium-chromium-driver-4.21.0.jar;C:\Users\bukad\.m2\repository\org\seleniumhq\selenium\selenium-json\4.21.0\selenium-json-4.21.0.jar;C:\Users\bukad\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.21.0\selenium-manager-4.21.0.jar;C:\Users\bukad\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v123\4.21.0\selenium-devtools-v123-4.21.0.jar;C:\Users\bukad\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v124\4.21.0\selenium-devtools-v124-4.21.0.jar;C:\Users\bukad\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v125\4.21.0\selenium-devtools-v125-4.21.0.jar;C:\Users\bukad\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.21.0\selenium-devtools-v85-4.21.0.jar;C:\Users\bukad\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.21.0\selenium-edge-driver-4.21.0.jar;C:\Users\bukad\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.21.0\selenium-firefox-driver-4.21.0.jar;C:\Users\bukad\.m2\repository\org\seleniumhq\selenium\selenium-http\4.21.0\selenium-http-4.21.0.jar;C:\Users\bukad\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\bukad\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.21.0\selenium-ie-driver-4.21.0.jar;C:\Users\bukad\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.21.0\selenium-remote-driver-4.21.0.jar;C:\Users\bukad\.m2\repository\com\google\guava\guava\33.2.0-jre\guava-33.2.0-jre.jar;C:\Users\bukad\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\bukad\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\bukad\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\bukad\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\bukad\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;C:\Users\bukad\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\bukad\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\bukad\.m2\repository\io\opentelemetry\opentelemetry-api\1.38.0\opentelemetry-api-1.38.0.jar;C:\Users\bukad\.m2\repository\io\opentelemetry\opentelemetry-context\1.38.0\opentelemetry-context-1.38.0.jar;C:\Users\bukad\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.38.0\opentelemetry-exporter-logging-1.38.0.jar;C:\Users\bukad\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.38.0\opentelemetry-sdk-common-1.38.0.jar;C:\Users\bukad\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.38.0\opentelemetry-sdk-extension-autoconfigure-spi-1.38.0.jar;C:\Users\bukad\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.38.0\opentelemetry-sdk-extension-autoconfigure-1.38.0.jar;C:\Users\bukad\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.38.0-alpha\opentelemetry-api-incubator-1.38.0-alpha.jar;C:\Users\bukad\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.38.0\opentelemetry-sdk-trace-1.38.0.jar;C:\Users\bukad\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.38.0\opentelemetry-sdk-1.38.0.jar;C:\Users\bukad\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.38.0\opentelemetry-sdk-metrics-1.38.0.jar;C:\Users\bukad\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.38.0\opentelemetry-sdk-logs-1.38.0.jar;C:\Users\bukad\.m2\repository\net\bytebuddy\byte-buddy\1.14.15\byte-buddy-1.14.15.jar;C:\Users\bukad\.m2\repository\org\seleniumhq\selenium\selenium-os\4.21.0\selenium-os-4.21.0.jar;C:\Users\bukad\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\bukad\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.21.0\selenium-safari-driver-4.21.0.jar;C:\Users\bukad\.m2\repository\org\seleniumhq\selenium\selenium-support\4.21.0\selenium-support-4.21.0.jar;C:\Users\bukad\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\bukad\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\bukad\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\bukad\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\bukad\.m2\repository\org\apache\logging\log4j\log4j-api\2.23.1\log4j-api-2.23.1.jar;C:\Users\bukad\.m2\repository\org\apache\logging\log4j\log4j-core\2.23.1\log4j-core-2.23.1.jar;C:\Users\bukad\.m2\repository\org\apache\logging\log4j\log4j-slf4j-impl\2.23.1\log4j-slf4j-impl-2.23.1.jar;C:\Users\bukad\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\bukad\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\bukad\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\bukad\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\bukad\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\bukad\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\bukad\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\bukad\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;C:\Users\bukad\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\bukad\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\bukad\.m2\repository\org\apache\commons\commons-lang3\3.15.0\commons-lang3-3.15.0.jar;C:\Users\bukad\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;C:\Users\bukad\.m2\repository\org\apache\commons\commons-email\1.6.0\commons-email-1.6.0.jar;C:\Users\bukad\.m2\repository\com\sun\mail\jakarta.mail\1.6.7\jakarta.mail-1.6.7.jar;C:\Users\bukad\.m2\repository\com\sun\activation\jakarta.activation\1.2.1\jakarta.activation-1.2.1.jar;C:\Users\bukad\.m2\repository\org\sikuli\sikuli-api\1.2.0\sikuli-api-1.2.0.jar;C:\Users\bukad\.m2\repository\org\sikuli\sikuli-core\1.2.2\sikuli-core-1.2.2.jar;C:\Users\bukad\.m2\repository\org\bytedeco\javacpp\0.9\javacpp-0.9.jar;C:\Users\bukad\.m2\repository\org\bytedeco\javacpp-presets\opencv\2.4.9-0.9\opencv-2.4.9-0.9.jar;C:\Users\bukad\.m2\repository\org\piccolo2d\piccolo2d-extras\1.3.1\piccolo2d-extras-1.3.1.jar;C:\Users\bukad\.m2\repository\org\piccolo2d\piccolo2d-core\1.3.1\piccolo2d-core-1.3.1.jar;C:\Users\bukad\.m2\repository\com\mysql\mysql-connector-j\8.0.33\mysql-connector-j-8.0.33.jar;C:\Users\bukad\.m2\repository\com\google\protobuf\protobuf-java\3.21.9\protobuf-java-3.21.9.jar;C:\Users\bukad\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\bukad\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\bukad\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\bukad\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\bukad\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\bukad\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -27,11 +27,12 @@
     <property name="java.home" value="C:\Program Files\Java\jdk-22"/>
     <property name="file.separator" value="\"/>
     <property name="basedir" value="C:\Users\bukad\OneDrive\Desktop\Projects\OpencartV1"/>
+    <property name="style.color" value="always"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\bukad\AppData\Local\Temp\surefire4758825311181441759\surefirebooter-20240905172356813_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\bukad\AppData\Local\Temp\surefire950188464669632562\surefirebooter-20240905183641169_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="22.0.1+8-16"/>
@@ -59,26 +60,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="66.0"/>
   </properties>
-  <testcase name="loginTest" classname="testCases.TC002_LoginTest" time="1.912">
-    <system-out><![CDATA[17:23:58.409 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\bukad\OneDrive\Desktop\Projects\OpencartV1\grouping.xml"
-17:23:58.596 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\bukad\OneDrive\Desktop\Projects\OpencartV1\master.xml"
-17:23:58.616 [main] WARN  org.testng.TestNG - Ignoring duplicate listener : utilities.ExtentReportManager
-17:24:04.262 [main] INFO  testCases.TC002_LoginTest - ****** Starting TC002_LoginTest *****
-17:24:06.150 [main] INFO  testCases.TC002_LoginTest - ****** Finished TC002_LoginTest *****
-]]></system-out>
-    <system-err><![CDATA[Sept 05, 2024 5:24:01 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 128, returning the closest version; found: 125; Please update to a Selenium version that supports CDP version 128
-]]></system-err>
-  </testcase>
-  <testcase name="loginTest" classname="testCases.TC002_LoginTest" time="1.916">
-    <system-out><![CDATA[17:25:08.514 [main] INFO  testCases.TC002_LoginTest - ****** Starting TC002_LoginTest *****
-17:25:10.428 [main] INFO  testCases.TC002_LoginTest - ****** Finished TC002_LoginTest *****
-]]></system-out>
-    <system-err><![CDATA[Sept 05, 2024 5:25:05 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 128, returning the closest version; found: 125; Please update to a Selenium version that supports CDP version 128
-]]></system-err>
-  </testcase>
-  <testcase name="loginDDT[abc@gmail.com, test123, valid](1)" classname="testCases.TC004_LoginDDTExcel" time="11.843">
+  <testcase name="loginDDT[abc@gmail.com, test123, valid](1)" classname="testCases.TC004_LoginDDTExcel" time="13.227">
     <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)
@@ -116,9 +98,12 @@ WARNING: Unable to find an exact match for CDP version 128, returning the closes
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
-    <system-out><![CDATA[17:24:10.764 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-17:24:10.768 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-17:24:10.791 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+    <system-out><![CDATA[18:36:44.072 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\bukad\OneDrive\Desktop\Projects\OpencartV1\grouping.xml"
+18:36:44.257 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\bukad\OneDrive\Desktop\Projects\OpencartV1\grid-docker.xml"
+18:36:44.269 [main] WARN  org.testng.TestNG - Ignoring duplicate listener : utilities.ExtentReportManager
+18:36:53.201 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+18:36:53.221 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+18:36:53.277 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
 abc@gmail.com
 test123
 valid
@@ -134,33 +119,33 @@ invalid
 peterwilliams@gmail.com
 peterwilliams
 valid
-17:24:11.310 [main] INFO  testCases.TC004_LoginDDTExcel - ****** Starting TC004_LoginDDTExcel *****
+18:36:54.589 [main] INFO  testCases.TC004_LoginDDTExcel - ****** Starting TC004_LoginDDTExcel *****
 ]]></system-out>
-    <system-err><![CDATA[Sept 05, 2024 5:24:07 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Sept 05, 2024 6:36:49 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 128, returning the closest version; found: 125; Please update to a Selenium version that supports CDP version 128
 ]]></system-err>
   </testcase>
-  <testcase name="loginDDT[john@gmail.com, test@123, invalid](2)" classname="testCases.TC004_LoginDDTExcel" time="11.63">
-    <system-out><![CDATA[17:24:23.170 [main] INFO  testCases.TC004_LoginDDTExcel - ****** Starting TC004_LoginDDTExcel *****
-17:24:34.800 [main] INFO  testCases.TC004_LoginDDTExcel - ****** Finished TC004_LoginDDTExcel *****
+  <testcase name="loginDDT[john@gmail.com, test@123, invalid](2)" classname="testCases.TC004_LoginDDTExcel" time="12.635">
+    <system-out><![CDATA[18:37:07.818 [main] INFO  testCases.TC004_LoginDDTExcel - ****** Starting TC004_LoginDDTExcel *****
+18:37:20.452 [main] INFO  testCases.TC004_LoginDDTExcel - ****** Finished TC004_LoginDDTExcel *****
 ]]></system-out>
   </testcase>
-  <testcase name="loginDDT[pavanol123@gmail.com, test@123, valid](3)" classname="testCases.TC004_LoginDDTExcel" time="2.951">
-    <system-out><![CDATA[17:24:34.801 [main] INFO  testCases.TC004_LoginDDTExcel - ****** Starting TC004_LoginDDTExcel *****
-17:24:37.751 [main] INFO  testCases.TC004_LoginDDTExcel - ****** Finished TC004_LoginDDTExcel *****
+  <testcase name="loginDDT[pavanol123@gmail.com, test@123, valid](3)" classname="testCases.TC004_LoginDDTExcel" time="3.673">
+    <system-out><![CDATA[18:37:20.457 [main] INFO  testCases.TC004_LoginDDTExcel - ****** Starting TC004_LoginDDTExcel *****
+18:37:24.127 [main] INFO  testCases.TC004_LoginDDTExcel - ****** Finished TC004_LoginDDTExcel *****
 ]]></system-out>
   </testcase>
-  <testcase name="loginDDT[johncanedy@gmail.com, test, invalid](4)" classname="testCases.TC004_LoginDDTExcel" time="11.84">
-    <system-out><![CDATA[17:24:37.753 [main] INFO  testCases.TC004_LoginDDTExcel - ****** Starting TC004_LoginDDTExcel *****
-17:24:49.593 [main] INFO  testCases.TC004_LoginDDTExcel - ****** Finished TC004_LoginDDTExcel *****
+  <testcase name="loginDDT[johncanedy@gmail.com, test, invalid](4)" classname="testCases.TC004_LoginDDTExcel" time="12.076">
+    <system-out><![CDATA[18:37:24.131 [main] INFO  testCases.TC004_LoginDDTExcel - ****** Starting TC004_LoginDDTExcel *****
+18:37:36.205 [main] INFO  testCases.TC004_LoginDDTExcel - ****** Finished TC004_LoginDDTExcel *****
 ]]></system-out>
   </testcase>
-  <testcase name="loginDDT[peterwilliams@gmail.com, peterwilliams, valid](5)" classname="testCases.TC004_LoginDDTExcel" time="3.615">
-    <system-out><![CDATA[17:24:49.594 [main] INFO  testCases.TC004_LoginDDTExcel - ****** Starting TC004_LoginDDTExcel *****
-17:24:53.206 [main] INFO  testCases.TC004_LoginDDTExcel - ****** Finished TC004_LoginDDTExcel *****
+  <testcase name="loginDDT[peterwilliams@gmail.com, peterwilliams, valid](5)" classname="testCases.TC004_LoginDDTExcel" time="3.643">
+    <system-out><![CDATA[18:37:36.209 [main] INFO  testCases.TC004_LoginDDTExcel - ****** Starting TC004_LoginDDTExcel *****
+18:37:39.848 [main] INFO  testCases.TC004_LoginDDTExcel - ****** Finished TC004_LoginDDTExcel *****
 ]]></system-out>
   </testcase>
-  <testcase name="loginDDT[null, null, null](6)" classname="testCases.TC004_LoginDDTExcel" time="0.817">
+  <testcase name="loginDDT[null, null, null](6)" classname="testCases.TC004_LoginDDTExcel" time="0.957">
     <failure message="null" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: null
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.fail(Assert.java:116)
@@ -196,20 +181,66 @@ WARNING: Unable to find an exact match for CDP version 128, returning the closes
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
-    <system-out><![CDATA[17:24:53.209 [main] INFO  testCases.TC004_LoginDDTExcel - ****** Starting TC004_LoginDDTExcel *****
+    <system-out><![CDATA[18:37:39.854 [main] INFO  testCases.TC004_LoginDDTExcel - ****** Starting TC004_LoginDDTExcel *****
 ]]></system-out>
   </testcase>
-  <testcase name="registrationTest" classname="testCases.TC001_AccountRegistrationTest" time="3.962">
-    <system-out><![CDATA[17:24:59.893 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Starting TC001_AccountRegistrationTest *****
-17:24:59.994 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on MyAccount Link
-17:25:00.754 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on MyRegister Link
-17:25:00.758 [main] INFO  testCases.TC001_AccountRegistrationTest - Providing customer details.....
-17:25:01.233 [main] INFO  testCases.TC001_AccountRegistrationTest - Creating dynamic password.....
-17:25:01.421 [main] INFO  testCases.TC001_AccountRegistrationTest - Creating Password.....
-17:25:03.663 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating expected message
-17:25:03.835 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Finished TC001_AccountRegistrationTest *****
+  <testcase name="registrationTest" classname="testCases.TC001_AccountRegistrationTest" time="4.191">
+    <system-out><![CDATA[18:37:52.336 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Starting TC001_AccountRegistrationTest *****
+18:37:52.710 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on MyAccount Link
+18:37:53.720 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on MyRegister Link
+18:37:53.733 [main] INFO  testCases.TC001_AccountRegistrationTest - Providing customer details.....
+18:37:54.659 [main] INFO  testCases.TC001_AccountRegistrationTest - Creating dynamic password.....
+18:37:55.029 [main] INFO  testCases.TC001_AccountRegistrationTest - Creating Password.....
+18:37:56.405 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating expected message
+18:37:56.525 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Finished TC001_AccountRegistrationTest *****
 ]]></system-out>
-    <system-err><![CDATA[Sept 05, 2024 5:24:56 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Sept 05, 2024 6:37:49 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 128, returning the closest version; found: 125; Please update to a Selenium version that supports CDP version 128
+]]></system-err>
+  </testcase>
+  <testcase name="registrationTest" classname="testCases.TC001_AccountRegistrationTest" time="5.286">
+    <system-out><![CDATA[18:38:17.752 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Starting TC001_AccountRegistrationTest *****
+18:38:18.144 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on MyAccount Link
+18:38:21.004 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on MyRegister Link
+18:38:21.006 [main] INFO  testCases.TC001_AccountRegistrationTest - Providing customer details.....
+18:38:21.485 [main] INFO  testCases.TC001_AccountRegistrationTest - Creating dynamic password.....
+18:38:21.593 [main] INFO  testCases.TC001_AccountRegistrationTest - Creating Password.....
+18:38:23.000 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating expected message
+18:38:23.036 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Finished TC001_AccountRegistrationTest *****
+]]></system-out>
+  </testcase>
+  <testcase name="registrationTest" classname="testCases.TC001_AccountRegistrationTest" time="5.957">
+    <system-out><![CDATA[18:38:45.590 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Starting TC001_AccountRegistrationTest *****
+18:38:45.762 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on MyAccount Link
+18:38:48.543 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on MyRegister Link
+18:38:48.545 [main] INFO  testCases.TC001_AccountRegistrationTest - Providing customer details.....
+18:38:49.660 [main] INFO  testCases.TC001_AccountRegistrationTest - Creating dynamic password.....
+18:38:50.144 [main] INFO  testCases.TC001_AccountRegistrationTest - Creating Password.....
+18:38:51.493 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating expected message
+18:38:51.546 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Finished TC001_AccountRegistrationTest *****
+]]></system-out>
+    <system-err><![CDATA[Sept 05, 2024 6:38:42 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 128, returning the closest version; found: 125; Please update to a Selenium version that supports CDP version 128
+]]></system-err>
+  </testcase>
+  <testcase name="loginTest" classname="testCases.TC002_LoginTest" time="2.664">
+    <system-out><![CDATA[18:38:04.023 [main] INFO  testCases.TC002_LoginTest - ****** Starting TC002_LoginTest *****
+18:38:06.685 [main] INFO  testCases.TC002_LoginTest - ****** Finished TC002_LoginTest *****
+]]></system-out>
+    <system-err><![CDATA[Sept 05, 2024 6:37:59 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 128, returning the closest version; found: 125; Please update to a Selenium version that supports CDP version 128
+]]></system-err>
+  </testcase>
+  <testcase name="loginTest" classname="testCases.TC002_LoginTest" time="2.4">
+    <system-out><![CDATA[18:38:34.200 [main] INFO  testCases.TC002_LoginTest - ****** Starting TC002_LoginTest *****
+18:38:36.598 [main] INFO  testCases.TC002_LoginTest - ****** Finished TC002_LoginTest *****
+]]></system-out>
+  </testcase>
+  <testcase name="loginTest" classname="testCases.TC002_LoginTest" time="2.813">
+    <system-out><![CDATA[18:38:58.365 [main] INFO  testCases.TC002_LoginTest - ****** Starting TC002_LoginTest *****
+18:39:01.177 [main] INFO  testCases.TC002_LoginTest - ****** Finished TC002_LoginTest *****
+]]></system-out>
+    <system-err><![CDATA[Sept 05, 2024 6:38:55 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 128, returning the closest version; found: 125; Please update to a Selenium version that supports CDP version 128
 ]]></system-err>
   </testcase>
