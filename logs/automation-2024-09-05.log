@@ -1,0 +1,97 @@
+14:13:10.203 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating expected message
+14:13:10.279 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Finished TC001_AccountRegistrationTest *****
+14:13:14.653 [main] INFO  testCases.TC002_LoginTest - ****** Starting TC002_LoginTest *****
+14:13:16.449 [main] INFO  testCases.TC002_LoginTest - ****** Finished TC002_LoginTest *****
+14:34:01.417 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\bukad\OneDrive\Desktop\Projects\OpencartV1\grouping.xml"
+14:34:01.546 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\bukad\OneDrive\Desktop\Projects\OpencartV1\master.xml"
+14:34:01.557 [main] WARN  org.testng.TestNG - Ignoring duplicate listener : utilities.ExtentReportManager
+14:34:07.703 [main] INFO  testCases.TC002_LoginTest - ****** Starting TC002_LoginTest *****
+14:34:09.541 [main] INFO  testCases.TC002_LoginTest - ****** Finished TC002_LoginTest *****
+14:34:14.028 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+14:34:14.032 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+14:34:14.059 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+14:34:14.585 [main] INFO  testCases.TC004_LoginDDTExcel - ****** Starting TC004_LoginDDTExcel *****
+14:34:26.296 [main] INFO  testCases.TC004_LoginDDTExcel - ****** Starting TC004_LoginDDTExcel *****
+14:34:37.843 [main] INFO  testCases.TC004_LoginDDTExcel - ****** Finished TC004_LoginDDTExcel *****
+14:34:37.844 [main] INFO  testCases.TC004_LoginDDTExcel - ****** Starting TC004_LoginDDTExcel *****
+14:34:40.739 [main] INFO  testCases.TC004_LoginDDTExcel - ****** Finished TC004_LoginDDTExcel *****
+14:34:40.741 [main] INFO  testCases.TC004_LoginDDTExcel - ****** Starting TC004_LoginDDTExcel *****
+14:34:52.076 [main] INFO  testCases.TC004_LoginDDTExcel - ****** Finished TC004_LoginDDTExcel *****
+14:34:52.077 [main] INFO  testCases.TC004_LoginDDTExcel - ****** Starting TC004_LoginDDTExcel *****
+14:34:54.925 [main] INFO  testCases.TC004_LoginDDTExcel - ****** Finished TC004_LoginDDTExcel *****
+14:34:54.927 [main] INFO  testCases.TC004_LoginDDTExcel - ****** Starting TC004_LoginDDTExcel *****
+14:35:02.747 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Starting TC001_AccountRegistrationTest *****
+14:35:02.892 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on MyAccount Link
+14:35:03.853 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on MyRegister Link
+14:35:03.857 [main] INFO  testCases.TC001_AccountRegistrationTest - Providing customer details.....
+14:35:04.345 [main] INFO  testCases.TC001_AccountRegistrationTest - Creating dynamic password.....
+14:35:04.557 [main] INFO  testCases.TC001_AccountRegistrationTest - Creating Password.....
+14:35:05.668 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating expected message
+14:35:05.714 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Finished TC001_AccountRegistrationTest *****
+14:35:09.855 [main] INFO  testCases.TC002_LoginTest - ****** Starting TC002_LoginTest *****
+14:35:11.616 [main] INFO  testCases.TC002_LoginTest - ****** Finished TC002_LoginTest *****
+17:01:25.995 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\bukad\OneDrive\Desktop\Projects\OpencartV1\grid-docker.xml"
+17:01:26.336 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\bukad\OneDrive\Desktop\Projects\OpencartV1\grid-docker.xml
+
+17:01:31.967 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Starting TC001_AccountRegistrationTest *****
+17:01:32.095 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on MyAccount Link
+17:01:33.048 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on MyRegister Link
+17:01:33.051 [main] INFO  testCases.TC001_AccountRegistrationTest - Providing customer details.....
+17:01:33.516 [main] INFO  testCases.TC001_AccountRegistrationTest - Creating dynamic password.....
+17:01:33.744 [main] INFO  testCases.TC001_AccountRegistrationTest - Creating Password.....
+17:01:34.979 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating expected message
+17:01:35.041 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Finished TC001_AccountRegistrationTest *****
+17:01:39.906 [main] INFO  testCases.TC002_LoginTest - ****** Starting TC002_LoginTest *****
+17:01:42.045 [main] INFO  testCases.TC002_LoginTest - ****** Finished TC002_LoginTest *****
+17:01:51.823 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Starting TC001_AccountRegistrationTest *****
+17:01:52.094 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on MyAccount Link
+17:01:53.086 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on MyRegister Link
+17:01:53.087 [main] INFO  testCases.TC001_AccountRegistrationTest - Providing customer details.....
+17:01:53.294 [main] INFO  testCases.TC001_AccountRegistrationTest - Creating dynamic password.....
+17:01:53.370 [main] INFO  testCases.TC001_AccountRegistrationTest - Creating Password.....
+17:01:54.746 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating expected message
+17:01:54.767 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Finished TC001_AccountRegistrationTest *****
+17:02:02.753 [main] INFO  testCases.TC002_LoginTest - ****** Starting TC002_LoginTest *****
+17:02:04.850 [main] INFO  testCases.TC002_LoginTest - ****** Finished TC002_LoginTest *****
+17:02:12.043 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Starting TC001_AccountRegistrationTest *****
+17:02:12.144 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on MyAccount Link
+17:02:12.936 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on MyRegister Link
+17:02:12.937 [main] INFO  testCases.TC001_AccountRegistrationTest - Providing customer details.....
+17:02:13.313 [main] INFO  testCases.TC001_AccountRegistrationTest - Creating dynamic password.....
+17:02:13.487 [main] INFO  testCases.TC001_AccountRegistrationTest - Creating Password.....
+17:02:14.528 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating expected message
+17:02:14.605 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Finished TC001_AccountRegistrationTest *****
+17:02:20.118 [main] INFO  testCases.TC002_LoginTest - ****** Starting TC002_LoginTest *****
+17:02:21.917 [main] INFO  testCases.TC002_LoginTest - ****** Finished TC002_LoginTest *****
+17:04:06.561 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\bukad\OneDrive\Desktop\Projects\OpencartV1\grid-docker.xml"
+17:04:06.898 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\bukad\OneDrive\Desktop\Projects\OpencartV1\grid-docker.xml
+
+17:22:35.760 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\bukad\OneDrive\Desktop\Projects\OpencartV1\grouping.xml"
+17:22:35.961 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\bukad\OneDrive\Desktop\Projects\OpencartV1\master.xml"
+17:22:35.995 [main] WARN  org.testng.TestNG - Ignoring duplicate listener : utilities.ExtentReportManager
+17:22:37.295 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+17:22:37.299 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+17:22:37.323 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+17:23:58.409 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\bukad\OneDrive\Desktop\Projects\OpencartV1\grouping.xml"
+17:23:58.596 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\bukad\OneDrive\Desktop\Projects\OpencartV1\master.xml"
+17:23:58.616 [main] WARN  org.testng.TestNG - Ignoring duplicate listener : utilities.ExtentReportManager
+17:24:04.262 [main] INFO  testCases.TC002_LoginTest - ****** Starting TC002_LoginTest *****
+17:24:06.150 [main] INFO  testCases.TC002_LoginTest - ****** Finished TC002_LoginTest *****
+17:24:10.764 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+17:24:10.768 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+17:24:10.791 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+17:24:11.310 [main] INFO  testCases.TC004_LoginDDTExcel - ****** Starting TC004_LoginDDTExcel *****
+17:24:23.170 [main] INFO  testCases.TC004_LoginDDTExcel - ****** Starting TC004_LoginDDTExcel *****
+17:24:34.800 [main] INFO  testCases.TC004_LoginDDTExcel - ****** Finished TC004_LoginDDTExcel *****
+17:24:34.801 [main] INFO  testCases.TC004_LoginDDTExcel - ****** Starting TC004_LoginDDTExcel *****
+17:24:37.751 [main] INFO  testCases.TC004_LoginDDTExcel - ****** Finished TC004_LoginDDTExcel *****
+17:24:37.753 [main] INFO  testCases.TC004_LoginDDTExcel - ****** Starting TC004_LoginDDTExcel *****
+17:24:49.593 [main] INFO  testCases.TC004_LoginDDTExcel - ****** Finished TC004_LoginDDTExcel *****
+17:24:49.594 [main] INFO  testCases.TC004_LoginDDTExcel - ****** Starting TC004_LoginDDTExcel *****
+17:24:53.206 [main] INFO  testCases.TC004_LoginDDTExcel - ****** Finished TC004_LoginDDTExcel *****
+17:24:53.209 [main] INFO  testCases.TC004_LoginDDTExcel - ****** Starting TC004_LoginDDTExcel *****
+17:24:59.893 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Starting TC001_AccountRegistrationTest *****
+17:24:59.994 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on MyAccount Link
+17:25:00.754 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on MyRegister Link
