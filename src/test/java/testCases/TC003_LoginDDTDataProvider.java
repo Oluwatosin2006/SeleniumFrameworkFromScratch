@@ -11,7 +11,7 @@ import utilities.DataProviders;
 public class TC003_LoginDDTDataProvider extends BaseClass{
 	
 	@Test(dataProvider="LoginTest", dataProviderClass=DataProviders.class, groups={"Regression", "Master", "DataDriven"})
-	public void loginDDT(String email, String pwd, String exp) {
+	public void loginDDT(String email, String pwd, String exp) throws InterruptedException {
 		
         logger.info("****** Starting TC002_LoginTest *****");		
 		try
@@ -43,6 +43,8 @@ public class TC003_LoginDDTDataProvider extends BaseClass{
 				Assert.assertTrue(false);
 			}
 			
+		}
+			
 			if(exp.equalsIgnoreCase("Invalid"))
 			{
 				if(targetPage==true) {
@@ -55,17 +57,13 @@ public class TC003_LoginDDTDataProvider extends BaseClass{
 					Assert.assertTrue(true);
 				}
 			}
-			
 		
-
-		}
-		}
-		catch(Exception e) {
+		}catch(Exception e) {
 			
 			Assert.fail();
 			
 		}
-		
+		Thread.sleep(3000);
 		logger.info("****** Finished TC003_LoginDDT *****");
 		
 		

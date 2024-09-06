@@ -1,46 +1,25 @@
-18:36:44.072 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\bukad\OneDrive\Desktop\Projects\OpencartV1\grouping.xml"
-18:36:44.257 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\bukad\OneDrive\Desktop\Projects\OpencartV1\grid-docker.xml"
-18:36:44.269 [main] WARN  org.testng.TestNG - Ignoring duplicate listener : utilities.ExtentReportManager
-18:36:53.201 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-18:36:53.221 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-18:36:53.277 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-18:36:54.589 [main] INFO  testCases.TC004_LoginDDTExcel - ****** Starting TC004_LoginDDTExcel *****
-18:37:07.818 [main] INFO  testCases.TC004_LoginDDTExcel - ****** Starting TC004_LoginDDTExcel *****
-18:37:20.452 [main] INFO  testCases.TC004_LoginDDTExcel - ****** Finished TC004_LoginDDTExcel *****
-18:37:20.457 [main] INFO  testCases.TC004_LoginDDTExcel - ****** Starting TC004_LoginDDTExcel *****
-18:37:24.127 [main] INFO  testCases.TC004_LoginDDTExcel - ****** Finished TC004_LoginDDTExcel *****
-18:37:24.131 [main] INFO  testCases.TC004_LoginDDTExcel - ****** Starting TC004_LoginDDTExcel *****
-18:37:36.205 [main] INFO  testCases.TC004_LoginDDTExcel - ****** Finished TC004_LoginDDTExcel *****
-18:37:36.209 [main] INFO  testCases.TC004_LoginDDTExcel - ****** Starting TC004_LoginDDTExcel *****
-18:37:39.848 [main] INFO  testCases.TC004_LoginDDTExcel - ****** Finished TC004_LoginDDTExcel *****
-18:37:39.854 [main] INFO  testCases.TC004_LoginDDTExcel - ****** Starting TC004_LoginDDTExcel *****
-18:37:52.336 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Starting TC001_AccountRegistrationTest *****
-18:37:52.710 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on MyAccount Link
-18:37:53.720 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on MyRegister Link
-18:37:53.733 [main] INFO  testCases.TC001_AccountRegistrationTest - Providing customer details.....
-18:37:54.659 [main] INFO  testCases.TC001_AccountRegistrationTest - Creating dynamic password.....
-18:37:55.029 [main] INFO  testCases.TC001_AccountRegistrationTest - Creating Password.....
-18:37:56.405 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating expected message
-18:37:56.525 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Finished TC001_AccountRegistrationTest *****
-18:38:04.023 [main] INFO  testCases.TC002_LoginTest - ****** Starting TC002_LoginTest *****
-18:38:06.685 [main] INFO  testCases.TC002_LoginTest - ****** Finished TC002_LoginTest *****
-18:38:17.752 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Starting TC001_AccountRegistrationTest *****
-18:38:18.144 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on MyAccount Link
-18:38:21.004 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on MyRegister Link
-18:38:21.006 [main] INFO  testCases.TC001_AccountRegistrationTest - Providing customer details.....
-18:38:21.485 [main] INFO  testCases.TC001_AccountRegistrationTest - Creating dynamic password.....
-18:38:21.593 [main] INFO  testCases.TC001_AccountRegistrationTest - Creating Password.....
-18:38:23.000 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating expected message
-18:38:23.036 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Finished TC001_AccountRegistrationTest *****
-18:38:34.200 [main] INFO  testCases.TC002_LoginTest - ****** Starting TC002_LoginTest *****
-18:38:36.598 [main] INFO  testCases.TC002_LoginTest - ****** Finished TC002_LoginTest *****
-18:38:45.590 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Starting TC001_AccountRegistrationTest *****
-18:38:45.762 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on MyAccount Link
-18:38:48.543 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on MyRegister Link
-18:38:48.545 [main] INFO  testCases.TC001_AccountRegistrationTest - Providing customer details.....
-18:38:49.660 [main] INFO  testCases.TC001_AccountRegistrationTest - Creating dynamic password.....
-18:38:50.144 [main] INFO  testCases.TC001_AccountRegistrationTest - Creating Password.....
-18:38:51.493 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating expected message
-18:38:51.546 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Finished TC001_AccountRegistrationTest *****
-18:38:58.365 [main] INFO  testCases.TC002_LoginTest - ****** Starting TC002_LoginTest *****
-18:39:01.177 [main] INFO  testCases.TC002_LoginTest - ****** Finished TC002_LoginTest *****
+19:45:43.461 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\bukad\OneDrive\Desktop\Projects\OpencartV1\master.xml"
+19:45:43.997 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\bukad\OneDrive\Desktop\Projects\OpencartV1\master.xml
+
+19:45:51.168 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Starting TC001_AccountRegistrationTest *****
+19:45:51.404 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on MyAccount Link
+19:45:52.275 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on MyRegister Link
+19:45:52.283 [main] INFO  testCases.TC001_AccountRegistrationTest - Providing customer details.....
+19:45:53.067 [main] INFO  testCases.TC001_AccountRegistrationTest - Creating dynamic password.....
+19:45:53.345 [main] INFO  testCases.TC001_AccountRegistrationTest - Creating Password.....
+19:45:54.498 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating expected message
+19:45:54.580 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Finished TC001_AccountRegistrationTest *****
+19:46:00.423 [main] INFO  testCases.TC002_LoginTest - ****** Starting TC002_LoginTest *****
+19:46:03.254 [main] INFO  testCases.TC002_LoginTest - ****** Finished TC002_LoginTest *****
+19:46:09.128 [main] INFO  testCases.TC003_LoginDDTDataProvider - ****** Starting TC002_LoginTest *****
+19:46:15.116 [main] INFO  testCases.TC003_LoginDDTDataProvider - ****** Finished TC003_LoginDDT *****
+19:46:15.125 [main] INFO  testCases.TC003_LoginDDTDataProvider - ****** Starting TC002_LoginTest *****
+19:46:27.435 [main] INFO  testCases.TC003_LoginDDTDataProvider - ****** Starting TC002_LoginTest *****
+19:46:43.457 [main] INFO  testCases.TC003_LoginDDTDataProvider - ****** Finished TC003_LoginDDT *****
+19:46:43.463 [main] INFO  testCases.TC003_LoginDDTDataProvider - ****** Starting TC002_LoginTest *****
+19:46:50.110 [main] INFO  testCases.TC003_LoginDDTDataProvider - ****** Finished TC003_LoginDDT *****
+19:46:50.129 [main] INFO  testCases.TC003_LoginDDTDataProvider - ****** Starting TC002_LoginTest *****
+19:47:04.809 [main] INFO  testCases.TC003_LoginDDTDataProvider - ****** Finished TC003_LoginDDT *****
+19:47:04.825 [main] INFO  testCases.TC003_LoginDDTDataProvider - ****** Starting TC002_LoginTest *****
+19:47:11.331 [main] INFO  testCases.TC003_LoginDDTDataProvider - ****** Finished TC003_LoginDDT *****

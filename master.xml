@@ -13,12 +13,12 @@
     <classes>
         <class name="testCases.TC001_AccountRegistrationTest"/>
         <class name="testCases.TC002_LoginTest"/>
-        <!-- <class name="testCases.TC003_LoginDDTDataProvider"/>-->
+        <class name="testCases.TC003_LoginDDTDataProvider"/>
         <!-- <class name="testCases.TC004_LoginDDTExcel"/>-->
-        <!-- <class name="testCases.TC005_LoginDDTSecondExcel"/>-->
+         <!-- <class name="testCases.TC005_LoginDDTSecondExcel"/>-->
            <!-- <class name="testCases.TC006_SearchProductTest"/>-->
            <!-- <class name="testCases.TC007_AddToCartTest"/>-->
-                <!-- <class name="testCases.TC008_ShoppingCartTest"/>-->
+            <!-- <class name="testCases.TC008_ShoppingCartTest"/>-->
                <!-- <class name="testCases.TC009_EneToEndTest"/>-->
               
              

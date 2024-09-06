@@ -45,10 +45,12 @@ public class TC004_LoginDDTExcel extends BaseClass{
 				myAccount.clickLogoutButton();
 				Assert.assertTrue(true);
 			}
-			else
+			else {
 		
 				Assert.assertTrue(false);
 			}
+			
+		}
 			
 			if(exp.equalsIgnoreCase("Invalid"))
 			{

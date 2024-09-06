@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>7/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Sep 05 13:22:31 BST 2024</td>
+<td>Started on:</td><td>Fri Sep 06 19:45:44 BST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>21 seconds (21323 ms)</td>
+<tr><td>Total time:</td><td>87 seconds (87735 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,15 +76,17 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testCases.TC007_AddToCartTest.addtocartTest()'><b>addtocartTest</b><br>Test class: testCases.TC007_AddToCartTest</td>
-<td><div><pre>java.lang.AssertionError: null
-	at testCases.TC007_AddToCartTest.addtocartTest(TC007_AddToCartTest.java:66)
+<td title='testCases.TC003_LoginDDTDataProvider.loginDDT()'><b>loginDDT</b><br>Test class: testCases.TC003_LoginDDTDataProvider<br>Parameters: abc@gmail.com, test123, valid</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at testCases.TC003_LoginDDTDataProvider.loginDDT(TC003_LoginDDTDataProvider.java:43)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace959897458", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace959897458'><pre>java.lang.AssertionError: null
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace325674467", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace325674467'><pre>java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.fail(Assert.java:116)
-	at testCases.TC007_AddToCartTest.addtocartTest(TC007_AddToCartTest.java:66)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at testCases.TC003_LoginDDTDataProvider.loginDDT(TC003_LoginDDTDataProvider.java:43)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -112,8 +114,52 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
-<td>15</td>
-<td>testCases.TC007_AddToCartTest@478ee483</td></tr>
+<td>11</td>
+<td>testCases.TC003_LoginDDTDataProvider@4044fb95</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testCases.TC002_LoginTest.loginTest()'><b>loginTest</b><br>Test class: testCases.TC002_LoginTest</td>
+<td></td>
+<td>2</td>
+<td>testCases.TC002_LoginTest@68b6f0d6</td></tr>
+<tr>
+<td title='testCases.TC003_LoginDDTDataProvider.loginDDT()'><b>loginDDT</b><br>Test class: testCases.TC003_LoginDDTDataProvider<br>Parameters: peterwilliams@gmail.com, peterwilliams, valid</td>
+<td></td>
+<td>6</td>
+<td>testCases.TC003_LoginDDTDataProvider@4044fb95</td></tr>
+<tr>
+<td title='testCases.TC001_AccountRegistrationTest.registrationTest()'><b>registrationTest</b><br>Test class: testCases.TC001_AccountRegistrationTest</td>
+<td></td>
+<td>3</td>
+<td>testCases.TC001_AccountRegistrationTest@58fe0499</td></tr>
+<tr>
+<td title='testCases.TC003_LoginDDTDataProvider.loginDDT()'><b>loginDDT</b><br>Test class: testCases.TC003_LoginDDTDataProvider<br>Parameters: peterpaul@gmail.com, peter1234, valid</td>
+<td></td>
+<td>5</td>
+<td>testCases.TC003_LoginDDTDataProvider@4044fb95</td></tr>
+<tr>
+<td title='testCases.TC003_LoginDDTDataProvider.loginDDT()'><b>loginDDT</b><br>Test class: testCases.TC003_LoginDDTDataProvider<br>Parameters: pavanol123@gmail.com, test@123, valid</td>
+<td></td>
+<td>6</td>
+<td>testCases.TC003_LoginDDTDataProvider@4044fb95</td></tr>
+<tr>
+<td title='testCases.TC003_LoginDDTDataProvider.loginDDT()'><b>loginDDT</b><br>Test class: testCases.TC003_LoginDDTDataProvider<br>Parameters: john@gmail.com, test@123, invalid</td>
+<td></td>
+<td>16</td>
+<td>testCases.TC003_LoginDDTDataProvider@4044fb95</td></tr>
+<tr>
+<td title='testCases.TC003_LoginDDTDataProvider.loginDDT()'><b>loginDDT</b><br>Test class: testCases.TC003_LoginDDTDataProvider<br>Parameters: johncanedy@gmail.com, test, invalid</td>
+<td></td>
+<td>14</td>
+<td>testCases.TC003_LoginDDTDataProvider@4044fb95</td></tr>
 </table><p>
 </body>
 </html>

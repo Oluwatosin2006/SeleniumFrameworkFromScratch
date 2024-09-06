@@ -4,64 +4,17 @@
   <listeners>
     <listener class-name="utilities.ExtentReportManager"/>
   </listeners>
-  <test thread-count="5" name="Linux-Chrome(failed)">
-    <parameter name="os" value="Linux"/>
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="os" value="Windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC002_LoginTest">
+      <class name="testCases.TC003_LoginDDTDataProvider">
         <methods>
+          <include name="loginDDT" invocation-numbers="1"/>
           <include name="tearDown"/>
           <include name="setup"/>
-          <include name="loginTest"/>
         </methods>
-      </class> <!-- testCases.TC002_LoginTest -->
-      <class name="testCases.TC001_AccountRegistrationTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="registrationTest"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.TC001_AccountRegistrationTest -->
+      </class> <!-- testCases.TC003_LoginDDTDataProvider -->
     </classes>
-  </test> <!-- Linux-Chrome(failed) -->
-  <test thread-count="5" name="Linux-Firefox(failed)">
-    <parameter name="os" value="Linux"/>
-    <parameter name="browser" value="firefox"/>
-    <classes>
-      <class name="testCases.TC002_LoginTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setup"/>
-          <include name="loginTest"/>
-        </methods>
-      </class> <!-- testCases.TC002_LoginTest -->
-      <class name="testCases.TC001_AccountRegistrationTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="registrationTest"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.TC001_AccountRegistrationTest -->
-    </classes>
-  </test> <!-- Linux-Firefox(failed) -->
-  <test thread-count="5" name="Linux-Edge(failed)">
-    <parameter name="os" value="Linux"/>
-    <parameter name="browser" value="edge"/>
-    <classes>
-      <class name="testCases.TC002_LoginTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setup"/>
-          <include name="loginTest"/>
-        </methods>
-      </class> <!-- testCases.TC002_LoginTest -->
-      <class name="testCases.TC001_AccountRegistrationTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="registrationTest"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.TC001_AccountRegistrationTest -->
-    </classes>
-  </test> <!-- Linux-Edge(failed) -->
+  </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Master Suite] -->

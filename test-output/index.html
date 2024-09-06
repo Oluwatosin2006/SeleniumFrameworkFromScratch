@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Master_Suite" class="navigator-link">
-              <span class="suite-name border-passed">Master Suite</span>
+              <span class="suite-name border-failed">Master Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -50,17 +50,17 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Master_Suite" class="navigator-link ">
-                    <span>C:\Users\bukad\OneDrive\Desktop\Projects\OpencartV1\grid-docker.xml</span>
+                    <span>C:\Users\bukad\OneDrive\Desktop\Projects\OpencartV1\master.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
                   <a href="#" panel-name="testlist-Master_Suite" class="navigator-link ">
-                    <span class="test-stats">3 tests</span>
+                    <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
                   <a href="#" panel-name="group-Master_Suite" class="navigator-link ">
-                    <span>3 groups</span>
+                    <span>4 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">6 methods,   6 passed</span>
+                    <span class="method-stats">8 methods, 1 failed,   7 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Master_Suite" class="hide-methods failed suite-Master_Suite"> (hide)</a> <!-- hide-methods failed suite-Master_Suite -->
+                      <a href="#" panel-name="suite-Master_Suite" class="show-methods failed suite-Master_Suite"> (show)</a> <!-- show-methods failed suite-Master_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Master_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Master_Suite" title="testCases.TC003_LoginDDTDataProvider" class="method navigator-link" hash-for-method="loginDDT(abc@gmail.com, test123, valid)">loginDDT(abc@gmail.com, test123, valid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Master_Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,27 +117,32 @@
                     <div class="method-list-content passed suite-Master_Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Master_Suite" title="testCases.TC002_LoginTest" class="method navigator-link" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Master_Suite" title="testCases.TC003_LoginDDTDataProvider" class="method navigator-link" hash-for-method="loginDDT(peterwilliams@gmail.com, peterwilliams, valid)">loginDDT(peterwilliams@gmail.com, peterwilliams, valid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Master_Suite" title="testCases.TC003_LoginDDTDataProvider" class="method navigator-link" hash-for-method="loginDDT(peterpaul@gmail.com, peter1234, valid)">loginDDT(peterpaul@gmail.com, peter1234, valid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Master_Suite" title="testCases.TC003_LoginDDTDataProvider" class="method navigator-link" hash-for-method="loginDDT(pavanol123@gmail.com, test@123, valid)">loginDDT(pavanol123@gmail.com, test@123, valid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Master_Suite" title="testCases.TC003_LoginDDTDataProvider" class="method navigator-link" hash-for-method="loginDDT(john@gmail.com, test@123, invalid)">loginDDT(john@gmail.com, test@123, invalid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Master_Suite" title="testCases.TC003_LoginDDTDataProvider" class="method navigator-link" hash-for-method="loginDDT(johncanedy@gmail.com, test, invalid)">loginDDT(johncanedy@gmail.com, test, invalid)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Master_Suite" title="testCases.TC002_LoginTest" class="method navigator-link" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Master_Suite" title="testCases.TC002_LoginTest" class="method navigator-link" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Master_Suite" title="testCases.TC001_AccountRegistrationTest" class="method navigator-link" hash-for-method="registrationTest">registrationTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Master_Suite" title="testCases.TC001_AccountRegistrationTest" class="method navigator-link" hash-for-method="registrationTest">registrationTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -143,26 +162,81 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Master_Suite" class="panel Master_Suite">
+          <div class="suite-Master_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testCases.TC003_LoginDDTDataProvider</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginDDT(abc@gmail.com, test123, valid)">
+                  </a> <!-- loginDDT(abc@gmail.com, test123, valid) -->
+                  <span class="method-name">loginDDT</span>
+                  <span class="parameters">(abc@gmail.com,test123,valid)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at testCases.TC003_LoginDDTDataProvider.loginDDT(TC003_LoginDDTDataProvider.java:43)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Master_Suite-class-failed -->
+          <div class="suite-Master_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC003_LoginDDTDataProvider</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginDDT(peterwilliams@gmail.com, peterwilliams, valid)">
+                  </a> <!-- loginDDT(peterwilliams@gmail.com, peterwilliams, valid) -->
+                  <span class="method-name">loginDDT</span>
+                  <span class="parameters">(peterwilliams@gmail.com,peterwilliams,valid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginDDT(peterpaul@gmail.com, peter1234, valid)">
+                  </a> <!-- loginDDT(peterpaul@gmail.com, peter1234, valid) -->
+                  <span class="method-name">loginDDT</span>
+                  <span class="parameters">(peterpaul@gmail.com,peter1234,valid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginDDT(pavanol123@gmail.com, test@123, valid)">
+                  </a> <!-- loginDDT(pavanol123@gmail.com, test@123, valid) -->
+                  <span class="method-name">loginDDT</span>
+                  <span class="parameters">(pavanol123@gmail.com,test@123,valid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginDDT(john@gmail.com, test@123, invalid)">
+                  </a> <!-- loginDDT(john@gmail.com, test@123, invalid) -->
+                  <span class="method-name">loginDDT</span>
+                  <span class="parameters">(john@gmail.com,test@123,invalid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginDDT(johncanedy@gmail.com, test, invalid)">
+                  </a> <!-- loginDDT(johncanedy@gmail.com, test, invalid) -->
+                  <span class="method-name">loginDDT</span>
+                  <span class="parameters">(johncanedy@gmail.com,test,invalid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Master_Suite-class-passed -->
           <div class="suite-Master_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
               <span class="class-name">testCases.TC001_AccountRegistrationTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="registrationTest">
-                  </a> <!-- registrationTest -->
-                  <span class="method-name">registrationTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="registrationTest">
-                  </a> <!-- registrationTest -->
-                  <span class="method-name">registrationTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="registrationTest">
@@ -185,26 +259,12 @@
                   <span class="method-name">loginTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="loginTest">
-                  </a> <!-- loginTest -->
-                  <span class="method-name">loginTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="loginTest">
-                  </a> <!-- loginTest -->
-                  <span class="method-name">loginTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Master_Suite-class-passed -->
         </div> <!-- panel Master_Suite -->
         <div panel-name="test-xml-Master_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\bukad\OneDrive\Desktop\Projects\OpencartV1\grid-docker.xml</span>
+            <span class="header-content">C:\Users\bukad\OneDrive\Desktop\Projects\OpencartV1\master.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -214,30 +274,15 @@
   &lt;listeners&gt;
     &lt;listener class-name=&quot;utilities.ExtentReportManager&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Linux-Chrome&quot;&gt;
-    &lt;parameter name=&quot;os&quot; value=&quot;Linux&quot;/&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;parameter name=&quot;os&quot; value=&quot;Windows&quot;/&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;testCases.TC001_AccountRegistrationTest&quot;/&gt;
       &lt;class name=&quot;testCases.TC002_LoginTest&quot;/&gt;
+      &lt;class name=&quot;testCases.TC003_LoginDDTDataProvider&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Linux-Chrome --&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Linux-Firefox&quot;&gt;
-    &lt;parameter name=&quot;os&quot; value=&quot;Linux&quot;/&gt;
-    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;testCases.TC001_AccountRegistrationTest&quot;/&gt;
-      &lt;class name=&quot;testCases.TC002_LoginTest&quot;/&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Linux-Firefox --&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Linux-Edge&quot;&gt;
-    &lt;parameter name=&quot;os&quot; value=&quot;Linux&quot;/&gt;
-    &lt;parameter name=&quot;browser&quot; value=&quot;edge&quot;/&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;testCases.TC001_AccountRegistrationTest&quot;/&gt;
-      &lt;class name=&quot;testCases.TC002_LoginTest&quot;/&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Linux-Edge --&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Master Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -249,13 +294,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Linux-Chrome (2 classes)</span>
-              </li>
-              <li>
-                <span class="test-name">Linux-Firefox (2 classes)</span>
-              </li>
-              <li>
-                <span class="test-name">Linux-Edge (2 classes)</span>
+                <span class="test-name">Test (3 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -266,8 +305,20 @@
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="test-group">
+              <span class="test-group-name">DataDriven</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">loginDDT</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
               <span class="test-group-name">Master</span>
               <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">loginDDT</span>
+                <br/>
+              </div> <!-- method-in-group -->
               <div class="method-in-group">
                 <span class="method-in-group-name">loginTest</span>
                 <br/>
@@ -280,6 +331,10 @@
             <div class="test-group">
               <span class="test-group-name">Regression</span>
               <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">loginDDT</span>
+                <br/>
+              </div> <!-- method-in-group -->
               <div class="method-in-group">
                 <span class="method-in-group-name">registrationTest</span>
                 <br/>
@@ -309,36 +364,44 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(6);
+data.addRows(8);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'registrationTest')
-data.setCell(0, 2, 'testCases.TC001_AccountRegistrationTest')
-data.setCell(0, 3, 5304);
+data.setCell(0, 1, 'loginDDT')
+data.setCell(0, 2, 'testCases.TC003_LoginDDTDataProvider')
+data.setCell(0, 3, 16027);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'registrationTest')
-data.setCell(1, 2, 'testCases.TC001_AccountRegistrationTest')
-data.setCell(1, 3, 4412);
+data.setCell(1, 1, 'loginDDT')
+data.setCell(1, 2, 'testCases.TC003_LoginDDTDataProvider')
+data.setCell(1, 3, 14685);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'registrationTest')
-data.setCell(2, 2, 'testCases.TC001_AccountRegistrationTest')
-data.setCell(2, 3, 3841);
+data.setCell(2, 1, 'loginDDT')
+data.setCell(2, 2, 'testCases.TC003_LoginDDTDataProvider')
+data.setCell(2, 3, 11935);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'loginTest')
-data.setCell(3, 2, 'testCases.TC002_LoginTest')
-data.setCell(3, 3, 2986);
+data.setCell(3, 1, 'loginDDT')
+data.setCell(3, 2, 'testCases.TC003_LoginDDTDataProvider')
+data.setCell(3, 3, 6650);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'loginTest')
-data.setCell(4, 2, 'testCases.TC002_LoginTest')
-data.setCell(4, 3, 2627);
+data.setCell(4, 1, 'loginDDT')
+data.setCell(4, 2, 'testCases.TC003_LoginDDTDataProvider')
+data.setCell(4, 3, 6511);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'loginTest')
-data.setCell(5, 2, 'testCases.TC002_LoginTest')
-data.setCell(5, 3, 2568);
+data.setCell(5, 1, 'loginDDT')
+data.setCell(5, 2, 'testCases.TC003_LoginDDTDataProvider')
+data.setCell(5, 3, 5993);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'registrationTest')
+data.setCell(6, 2, 'testCases.TC001_AccountRegistrationTest')
+data.setCell(6, 3, 3442);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'loginTest')
+data.setCell(7, 2, 'testCases.TC002_LoginTest')
+data.setCell(7, 3, 2838);
 window.suiteTableData['Master_Suite']= { tableData: data, tableDiv: 'times-div-Master_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 21 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Master_Suite">
               </div> <!-- times-div-Master_Suite -->
             </div> <!-- times-div -->
@@ -366,91 +429,68 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.TC001_AccountRegistrationTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">setup(Linux, chrome)</span>
+                <span class="method-name">setup(Windows, chrome)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">registrationTest</span>
-                <span class="method-start">7200 ms</span>
+                <span class="method-start">6603 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">11660 ms</span>
+                <span class="method-start">10098 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.TC002_LoginTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">setup(Linux, chrome)</span>
-                <span class="method-start">12097 ms</span>
+                <span class="method-name">setup(Windows, chrome)</span>
+                <span class="method-start">10587 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">loginTest</span>
-                <span class="method-start">17504 ms</span>
+                <span class="method-start">15882 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">20493 ms</span>
+                <span class="method-start">18723 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">testCases.TC001_AccountRegistrationTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">testCases.TC003_LoginDDTDataProvider</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">setup(Linux, firefox)</span>
-                <span class="method-start">22659 ms</span>
+                <span class="method-name">setup(Windows, chrome)</span>
+                <span class="method-start">19096 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">registrationTest</span>
-                <span class="method-start">37516 ms</span>
+                <span class="method-name">loginDDT(peterpaul@gmail.com, peter1234, valid)</span>
+                <span class="method-start">24588 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">loginDDT(abc@gmail.com, test123, valid)</span>
+                <span class="method-start">30586 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginDDT(john@gmail.com, test@123, invalid)</span>
+                <span class="method-start">42895 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginDDT(pavanol123@gmail.com, test@123, valid)</span>
+                <span class="method-start">58926 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginDDT(johncanedy@gmail.com, test, invalid)</span>
+                <span class="method-start">65589 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginDDT(peterwilliams@gmail.com, peterwilliams, valid)</span>
+                <span class="method-start">80286 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">41359 ms</span>
-              </div> <!-- configuration-class after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testCases.TC002_LoginTest</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">setup(Linux, firefox)</span>
-                <span class="method-start">43072 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="test-method">
-                <span class="method-name">loginTest</span>
-                <span class="method-start">52565 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-class after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">55196 ms</span>
-              </div> <!-- configuration-class after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testCases.TC001_AccountRegistrationTest</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">setup(Linux, edge)</span>
-                <span class="method-start">57767 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="test-method">
-                <span class="method-name">registrationTest</span>
-                <span class="method-start">64445 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-class after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">69751 ms</span>
-              </div> <!-- configuration-class after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testCases.TC002_LoginTest</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">setup(Linux, edge)</span>
-                <span class="method-start">71329 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="test-method">
-                <span class="method-name">loginTest</span>
-                <span class="method-start">79883 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-class after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">82456 ms</span>
+                <span class="method-start">86803 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

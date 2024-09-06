@@ -7,19 +7,14 @@
   <test thread-count="5" name="Test(failed)" verbose="0">
     <parameter name="os" value="Windows"/>
     <parameter name="browser" value="chrome"/>
-    <groups>
-      <run>
-        <include name="DataDriven"/>
-      </run>
-    </groups>
     <classes>
-      <class name="testCases.TC004_LoginDDTExcel">
+      <class name="testCases.TC003_LoginDDTDataProvider">
         <methods>
+          <include name="loginDDT" invocation-numbers="1"/>
           <include name="tearDown"/>
           <include name="setup"/>
-          <include name="loginDDT" invocation-numbers="0 5"/>
         </methods>
-      </class> <!-- testCases.TC004_LoginDDTExcel -->
+      </class> <!-- testCases.TC003_LoginDDTDataProvider -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Master Suite] -->

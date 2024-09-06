@@ -17,6 +17,8 @@ public class TC005_LoginDDTSecondExcel extends BaseClass{
 	@Test(dataProvider="LoginData")
 	public void loginDDTest(String email, String pwd, String exp) {
 		
+
+        logger.info("****** Starting TC005_LoginDDTSecondExcel *****");
 		try
 		{
 		HomePage hp= new HomePage(driver);
@@ -43,6 +45,8 @@ public class TC005_LoginDDTSecondExcel extends BaseClass{
 				Assert.assertTrue(false);
 			}
 			
+		}
+			
 			if(exp.equalsIgnoreCase("Invalid"))
 			{
 				if(targetPage==true) {
@@ -55,16 +59,15 @@ public class TC005_LoginDDTSecondExcel extends BaseClass{
 					Assert.assertTrue(true);
 				}
 			}
-		}
-		}
-		catch(Exception e) {
+		
+		}catch(Exception e) {
 			
 			Assert.fail();
 		}
 			
-		
 
-		
+		logger.info("****** Finished TC005_LoginDDTSecondExcel *****");
+
 		
 	}
 	
